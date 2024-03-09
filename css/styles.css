@@ -42,3 +42,30 @@ color:#f1f1f1;
     font-size: 40px;
     
     }
+
+.Services{
+    background-image: url("../images/dark_dot.jpg");
+}
+.Section-title h2{
+font-size: 80px;
+letter-spacing: 15px;
+color:#222;
+}
+.Section-title h3{
+font-size: 40px;
+letter-spacing: 15px;
+}
+.item h2{
+    position: relative;
+}
+.item h2::after{
+    content: '';
+    height: 2px;
+    left:50%;
+    transform: translate(-50%);
+    top:100%;
+    background-color: #ff206e;
+    width: 25%;
+    position: absolute;
+
+}
